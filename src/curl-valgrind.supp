@@ -1,0 +1,64 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:BN_bin2bn
+   fun:BN_rand
+   fun:bn_rand_range
+   fun:EC_KEY_generate_key
+   fun:ssl3_send_client_key_exchange
+   fun:ssl3_connect
+   fun:ssl23_connect
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:BN_cmp
+   fun:bn_rand_range
+   fun:EC_KEY_generate_key
+   fun:ssl3_send_client_key_exchange
+   fun:ssl3_connect
+   fun:ssl23_connect
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+   fun:curl_multi_perform
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:BN_num_bits_word
+   fun:BN_num_bits
+   fun:ecp_nistz256_points_mul
+   fun:EC_POINT_mul
+   fun:EC_KEY_generate_key
+   fun:ssl3_send_client_key_exchange
+   fun:ssl3_connect
+   fun:ssl23_connect
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Value8
+   fun:BN_num_bits_word
+   fun:BN_num_bits
+   fun:ecp_nistz256_points_mul
+   fun:EC_POINT_mul
+   fun:EC_KEY_generate_key
+   fun:ssl3_send_client_key_exchange
+   fun:ssl3_connect
+   fun:ssl23_connect
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+   obj:/usr/lib/libcurl.so.4.4.0
+}
